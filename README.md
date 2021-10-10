@@ -15,3 +15,5 @@ npm install
 ```
 
 You are ready to go!
+sls deploy -v
+sls deploy -f createAuction -v  (Deploy function only)
