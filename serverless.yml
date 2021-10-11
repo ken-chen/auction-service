@@ -38,6 +38,13 @@ functions:
           method: GET
           path: /auction/{id}
 
+  placeBid:
+    handler: src/handlers/placeBid.handler
+    events:
+      - http:
+          method: PATCH
+          path: auction/{id}/bid
+
 resources:
   Resources:
     AuctionsTable: ${file(resources/AuctionsTable.yml):AuctionsTable}
