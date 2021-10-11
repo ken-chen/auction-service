@@ -19,4 +19,6 @@ sls deploy -v
 sls deploy -f createAuction -v  (Deploy function only)
 
 install middy
+npm install uuid
 npm install @middy/core @middy/http-event-normalizer @middy/http-error-handler @middy/http-json-body-parser
+npm install http-errors
